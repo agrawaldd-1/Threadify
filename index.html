@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threadify - a fashion shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar-1">
+            <div class="nav-left">
+                <img src="images\logo-1.png" alt="">
+            </div>
+            <div class="nav-center">
+                <input id="search-bar" type="text" placeholder="Search item">
+                <button id="search"><img src="images\search-button.svg" alt=""></button>
+            </div>
+            <div class="nav-right">
+                <div class="account">
+                    <img id="account-img" src="images\account.svg" alt="">
+                </div>
+                <div class="cart">
+                    <img src="images\cart.svg" alt="">
+                    <p>Cart</p>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-2">
+            <div class="all">&#9776; All Categories</div>
+            <div class="categories">
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="search-opt"></div>
+    <div class="account-slide">
+        <div class="box1"><a href="#">👤Profile</a></div>
+        <div class="box1"><a href="#">📦Orders</a></div>
+        <div class="box1"><a href="#">↩️Returned Orders</a></div>
+        <div class="box1"><a href="#">⚙️ Settings</a></div>
+        <hr>
+        <div id="logout" class="box1"><a href="#">🚪 Logout </a></div>
+    </div>
+    <div class="sidebar">
+        <div class="side-category">All Categories</div>
+
+        <div class="box2"><a href="#">Mens</a></div>
+        <div class="box2"><a href="#">Womens</a></div>
+        <div class="box2"><a href="#">Kids</a></div>
+        <div class="box2"><a href="#">Gens-Z</a></div>
+        <br>
+        <hr>
+        <br>
+        <div class="box2"><a href="#">Footwear</a></div>
+        <div class="box2"><a href="#">Watches</a></div>
+        <div class="box2"><a href="#">Bags</a></div>
+        <div class="box2"><a href="#">Jewellery</a></div>
+        <br>
+        <hr>
+        <br>
+        <div class="box2"><a href="#">GYM Wear</a></div>
+        <div class="box2"><a href="#">Sports Wear</a></div>
+        <div class="box2"><a href="#">Formals</a></div>
+        <div class="box2"><a href="#">Party Wear</a></div>
+        <div class="box2"><a href="#">Street Wear</a></div>
+        <br>
+        <hr>
+        <br>
+        <div class="box2"><a href="#">Sale</a></div>
+        <div class="box2" style="margin-bottom: 20px;"><a href="#">New Arrival</a></div>
+    </div>
+    <button class="close-btn">X</button>
+    <main>
+        <section class="banner">
+            <h5 class="heading">New Collections </h3>
+                <h1>Elevate Your</h1>
+                <h1>Everyday Style</h1>
+                <p>Discover premium fashion for mens , womens and kids </p>
+                <div class="buttons">
+                    <button class="shop-now">shop now</button>
+                    <button class="explore">explore</button>
+                </div>
+                <img src="images\banner-img.png" alt="">
+        </section>
+        <section class="offers">
+        <div class="slidder">
+
+            <button class="previous">&lt;</button>
+            <button class="next">&gt;</button>
+
+            <div class="track">
+
+                <div class="box">
+                    <img src="images/hero-1.png">
+                    <img src="images/hero-2.png">
+                    <img src="images/hero-3.png">
+                    <img src="images/hero-4.png">
+                </div>
+
+                <div class="box">
+                    <img src="images/hero-5.png">
+                    <img src="images/hero-6.png">
+                    <img src="images/hero-7.png">
+                    <img src="images/hero-8.png">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+        <section class="container">
+            <div class="head">
+                <h1>Men's Fashion</h1>
+                <button class="more">view all ></button>
+            </div>
+            <div class="grid">
+                <div class="box3">
+                    <div class="img"><img src="images/mens-1.png" alt=""></div>
+                    <div class="name">Oversized graphic tshirt</div>
+                    <div class="price">&#x20B9; 449</div>
+                    <div class="colors">
+                        <div class="color-spec color1" style="background-color: grey;"></div>
+                        <div class="color-spec color2" style="background-color: maroon;"></div>
+                        <div class="color-spec color3" style="background-color: blue;"></div>
+                        <div class="color-spec color4" style="background-color: black;"></div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="img"><img src="images/mens-2.png" alt=""></div>
+                    <div class="name">Casual Shirts</div>
+                    <div class="price">&#x20B9; 449</div>
+                    <div class="colors">
+                        <div class="color-spec color1" style="background-color: white; border : 1px solid black"></div>
+                        <div class="color-spec color2" style="background-color: yellow;"></div>
+                        <div class="color-spec color3" style="background-color: rgb(230, 13, 13);"></div>
+                        <div class="color-spec color4" style="background-color: skyblue;"></div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="img"><img src="images/mens-5.png" alt=""></div>
+                    <div class="name">Cargo Pants </div>
+                    <div class="price">&#x20B9; 899</div>
+                    <div class="colors">
+                        <div class="color-spec color1" style="background-color: olive;"></div>
+                        <div class="color-spec color2" style="background-color: navy;"></div>
+                        <div class="color-spec color3" style="background-color: grey;"></div>
+                        <div class="color-spec color4" style="background-color: rgb(13, 13, 13);"></div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="img"><img src="images/mens-3.png" alt=""></div>
+                    <div class="name">Tucker Jackets </div>
+                    <div class="price">&#x20B9; 1199</div>
+                    <div class="colors">
+                        <div class="color-spec color1" style="background-color: black;"></div>
+                        <div class="color-spec color2" style="background-color: beige;"></div>
+                        <div class="color-spec color3" style="background-color: brown;"></div>
+                        <div class="color-spec color4" style="background-color: purple;"></div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="img"><img src="images/mens-4.png" alt=""></div>
+                    <div class="name">Formal Shirts</div>
+                    <div class="price">&#x20B9; 999</div>
+                    <div class="colors">
+                        <div class="color-spec color1" style="background-color: #F8C8DC;"></div>
+                        <div class="color-spec color2" style="background-color: #D8C4F8;"></div>
+                        <div class="color-spec color3" style="background-color: #CBE7FF;"></div>
+                        <div class="color-spec color4" style="background-color: beige;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="head">
+                <h1>Women's Fashion</h1>
+                <button class="more">view all ></button>
+            </div>
+            <div class="grid">
+                <div class="box3">
+                    <div class="img"><img src="images/womens-1.png" alt=""></div>
+                    <div class="name">Floral maxi dress</div>
+                    <div class="price">&#x20B9; 999</div>
+                    <div class="colors">
+                        <div class="color-spec color1" style="background-color: pink;"></div>
+                        <div class="color-spec color2" style="background-color: beige;"></div>
+                        <div class="color-spec color3" style="background-color: lightgreen;"></div>
+                        <div class="color-spec color4" style="background-color: lightblue;"></div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="img"><img src="images/womens-2.png" alt=""></div>
+                    <div class="name">Ribbed Tank Top</div>
+                    <div class="price">&#x20B9; 799</div>
+                    <div class="colors">
+                        <div class="color-spec color1" style="background-color: grey;"></div>
+                        <div class="color-spec color2" style="background-color: rgb(253, 1, 152);"></div>
+                        <div class="color-spec color3" style="background-color: purple;"></div>
+                        <div class="color-spec color4" style="background-color: white; border:1px solid black"></div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="img"><img src="images/womens-3.png" alt=""></div>
+                    <div class="name">Blazer</div>
+                    <div class="price">&#x20B9; 1899</div>
+                    <div class="colors">
+                        <div class="color-spec color1" style="background-color: green;"></div>
+                        <div class="color-spec color2" style="background-color: rgb(0, 0, 128);"></div>
+                        <div class="color-spec color3" style="background-color: maroon;"></div>
+                        <div class="color-spec color4" style="background-color: black;"></div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="img"><img src="images/womens-4.png" alt=""></div>
+                    <div class="name">Baggy Jeans</div>
+                    <div class="price">&#x20B9; 1199</div>
+                    <div class="colors">
+                        <div class="color-spec color1" style="background-color: grey;"></div>
+                        <div class="color-spec color3" style="background-color: blue;"></div>
+                        <div class="color-spec color4" style="background-color: black;"></div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="img"><img src="images/womens-5.png" alt=""></div>
+                    <div class="name">Skirts</div>
+                    <div class="price">&#x20B9; 1299</div>
+                    <div class="colors">
+                        <div class="color-spec color1" style="background-color: grey;"></div>
+                        <div class="color-spec color2" style="background-color: brown;"></div>
+                        <div class="color-spec color3" style="background-color: blue;"></div>
+                        <div class="color-spec color4" style="background-color: black;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gen-z">
+            <h5 class="heading">New Collections </h3>
+                <h1>Elevate Your</h1>
+                <h1>Everyday Style</h1>
+                <p>Discover premium fashion for mens , womens and kids </p>
+                <div class="buttons">
+                    <button class="shop-now-2">shop now &#8594;</button>
+                </div>
+                <img id = "img1"src="images/genz-1.png" alt="">
+                <img id = "img2"src="images/genz-2.png" alt="">
+                <img id = "img3"src="images/genz-3.png" alt="">
+        </section>
+        <section class="services">
+            <div class="cards">
+                <img src="images/delivery-truck.png" alt="">
+                <div class="card-info">
+                    <h3>Free Shipping</h3>
+                    <p>Over price &#x20B9; 499</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="images/easy-return.png" alt="">
+                <div class="card-info">
+                    <h3>Easy Return</h3>
+                    <p>15 Days Return Policy</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="images/secure-payment.png" alt="">
+                <div class="card-info">
+                    <h3>Secured Payment</h3>
+                    <p>100% Secured Checkout</p>
+                </div>
+            </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+    <div class="left">
+        <div class="left-left">
+            <div class="head-lines">
+                JOIN THE <span id="threadify">THREADIFY</span> CLUB!
+            </div>
+
+            <div class="text">
+                Get exclusive drops, early access,<br>
+                special offers and style updates.
+            </div>
+
+            <div class="subscribe">
+                <input type="email" placeholder="Enter your email">
+                <button>SUBSCRIBE</button>
+            </div>
+        </div>
+
+        <div class="left-right">
+            <img src="images/footer.png" alt="">
+        </div>
+    </div>
+
+    <div class="right">
+
+        <div class="shop">
+            <div class="heading">SHOP</div>
+
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Gen Z</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Sale</a>
+        </div>
+
+        <div class="shop">
+            <div class="heading">CUSTOMER SERVICE</div>
+
+            <a href="#">Contact Us</a>
+            <a href="#">Track Order</a>
+            <a href="#">Returns & Exchanges</a>
+            <a href="#">FAQs</a>
+            <a href="#">Shipping Policy</a>
+        </div>
+
+        <div class="shop">
+            <div class="heading">COMPANY</div>
+
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Sustainability</a>
+        </div>
+
+        <div class="shop">
+            <div class="heading">FOLLOW US</div>
+
+            <div class="socials">
+                <a href="#">📷</a>
+                <a href="#">f</a>
+                <a href="#">𝕏</a>
+                <a href="#">📌</a>
+                <a href="#">♪</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
